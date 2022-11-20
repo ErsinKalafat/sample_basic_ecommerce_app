@@ -17,9 +17,7 @@ const TabScreen = createMaterialTopTabNavigator(
                 tabBarIcon: ({ tintColor }) => (
                     <FontAwesomeIcon icon={faHome} size={27} color="#ac9596" />
                 ),
-                title: 'aa'
             },
-            title: 'bb'
         },
         Flow: {
             screen: Home,
